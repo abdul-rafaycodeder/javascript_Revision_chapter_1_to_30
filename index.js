@@ -1,3 +1,5 @@
+//-------alert: cahpter 1----------//
+
 // alert("this a first chapter")
 
 // var uname = {
@@ -127,6 +129,9 @@
 
 // let  let 
 
+//-------------Variables for Numbers: chapter 3------------//
+
+
 // var x = "3";
 // var y = 2;
 // alert(x * y);
@@ -139,5 +144,78 @@
 // var uname = 1;
 // console.log(uname == false)
 
-var a = "5";
-alert(++a);
+// var a = "5";
+// alert(++a);
+
+// var name = "rafay";
+
+// console.log(name)
+
+// var weight = 150;
+
+// weight + 25; 
+
+// console.log(weight)
+
+
+// var originalNumber = 10;
+// var newNumber = originalNumber + 20
+
+// console.log(newNumber)
+
+
+// var firstNumber = "20";
+// var secondNumber = 20;
+// var result = firstNumber + secondNumber;
+// console.log(result)
+
+// var age = 18;
+// age = age + 10;
+// console.log(age)
+
+// var originalNumber = 23;
+// var newNum = originalNumber + 10;
+
+// console.log(newNum)
+
+// console.log(typeof originalNumber)
+
+// var 3Name
+
+// alert(144)
+
+// var num = 10;
+// alert(num) 
+
+// var age = 10;
+// alert(age + 19)
+
+// var age = "10";
+// alert(age + 19)
+
+// var a = "20";
+// var b = 5;
+// alert(a + b);
+
+// var a = 20;
+// var b = 5;
+// alert(a + b);
+
+//------Variable Names Legal and Illegal: chapter 4------//
+
+
+// var 2345678  
+
+// var full$Name name  
+
+// var fullName10
+
+// var uname = "rafay"
+
+// alert(Uname)
+
+// let const
+
+
+// console.log(uname)
+// var uname = "abdul Rafay"
