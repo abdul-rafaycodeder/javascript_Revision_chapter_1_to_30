@@ -81,3 +81,53 @@
 
 // uname = "osama"
 // console.log(uname);
+
+// var name
+
+// var a = 9;
+// var b = 10;
+// alert(a == b);
+
+// var a = "10"
+// var b = 10
+
+// console.log(uname)
+
+// var a = "10";
+// var b = 10;
+// alert(a === b);
+
+// var uname = "Hello"
+
+// console.log(uname + " World")
+
+// var full$Name
+
+// var a = "5";
+// var b = a;
+// b = "10";
+// alert(a);
+
+// var x = 10;
+// var y = 10;
+// console.log(x + y)
+
+// var uname;
+
+// var a;
+// console.log(a == undefined)
+
+
+// var uname;
+
+// console.log(uname)
+
+// var a = ;
+
+// console.log(typeof a)
+
+// let  let 
+
+var x = "2";
+var y = 2;
+alert(x * y);v
