@@ -122,12 +122,22 @@
 
 // console.log(uname)
 
-// var a = ;
 
 // console.log(typeof a)
 
 // let  let 
 
-var x = "2";
-var y = 2;
-alert(x * y);v
+// var x = "3";
+// var y = 2;
+// alert(x * y);
+
+// var x = "rafay";
+// var y = 5;
+// alert(x - y);
+
+
+// var uname = 1;
+// console.log(uname == false)
+
+var a = "5";
+alert(++a);
