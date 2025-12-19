@@ -214,8 +214,44 @@
 
 // alert(Uname)
 
-// let const
+//--start Sir Ibrahim youtube video Ecmascript revision chapter 1-5--// 
+
+// var var = "rafay" // reservet keyword
+
+// var myFirstName = "Rafay";
+// var myFirstName = //reinitailized
+// myFirstName = "Rafay change" //reassige 
+
+// let myFirstName = "Rafay"
+// let myFirstName = "Rafay" // let keyword reinitailized nahi hota
+// myFirstName = "Rafay change" // let keyword reassige hota hai
 
 
-// console.log(uname)
-// var uname = "abdul Rafay"
+// const myFirstName = "Rafay"
+// const myFirstName = "Rafay" // const keyword reinitailized nahi hota
+// myFirstName = "Rafay change"// const keyword reassige nahi hota
+
+// console.log(myFirstName)
+// var myFirstName = "Rafay";
+
+// console.log(myFirstName)
+// let myFirstName = "Rafay"; //TDZ from: temporal dead zone
+
+// console.log(myFirstName)
+// const myFirstName = "Rafay";//TDZ from: temporal dead zone
+
+// var Numbers = 10;
+
+// var NumbersPlus = Numbers + 10;
+
+// console.log("number",Numbers,NumbersPlus)
+
+// coersion
+
+// alert(2 + 2)
+
+// var Mo = 10 / 0;
+// console.log(Mo)
+
+
+//--------JavaScript Type Conversion & Coercion--------//
