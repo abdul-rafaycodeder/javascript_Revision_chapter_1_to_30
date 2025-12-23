@@ -364,8 +364,14 @@
 
 var uname = prompt("enter your name");
 
-if(uname == "rafay"){
-    console.log("theek hai")
-} else{
-    console.log("theek nahi hai")
+if (uname == "rafay") {
+    console.log("correct==>", uname)
+} else if(uname=="ali"){
+    console.log("correct==>", uname)
+}
+else if (uname=="osama"){
+    console.log("correct==>", uname)
+}
+else {
+console.log("incorrect")
 }
