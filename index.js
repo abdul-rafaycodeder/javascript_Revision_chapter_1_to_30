@@ -275,5 +275,53 @@
 // console.log(totle);
 // console.log(num1)
 
-var num1 = 5;
-var 
+// var num1 = 5;
+// var totle = num1 - 2;
+// console.log(totle)
+
+// var num = 5;
+// var newNum = num--;
+// console.log(newNum)
+// console.log(num);
+
+// var x = 3;
+// var y = x++ + 2;
+// alert(y);
+
+// var num = 2;
+// var num2 = ++num;
+// console.log(num2);
+// console.log(num);
+
+// var num = 5;
+// var totle = ++num;
+// console.log(totle)
+
+// var num = 5;
+// var totle = num--;
+// console.log(totle)
+// console.log(num)
+
+// console.log(num--)
+// console.log(num)
+
+// var num2 = 10;
+// console.log( 1 + num2)
+
+// console.log(++num);
+
+// var a = 1;
+// var b = 1;
+
+// var totle = ++a + b++;
+
+// console.log(totle)
+
+var fname = "abdul";
+
+var lName = prompt("enter your last name");
+
+alert( "kya hal hai " + fname + " " +  lName)
+
+console.log(fname + " " + lName)
+
