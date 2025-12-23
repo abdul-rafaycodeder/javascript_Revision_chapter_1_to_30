@@ -317,11 +317,55 @@
 
 // console.log(totle)
 
-var fname = "abdul";
+// var fname = "abdul";
 
-var lName = prompt("enter your last name");
+// var lName = prompt("enter your last name");
 
-alert( "kya hal hai " + fname + " " +  lName)
+// alert( "kya hal hai " + fname + " " +  lName)
 
-console.log(fname + " " + lName)
+// console.log(fname + " " + lName)
 
+// console.log(`hi==> ${fname} ${lName} <==kya hal hai`)
+
+// alert("Thanks for your input")
+
+// var name = "Thanks for your input";
+
+// alert(name)
+
+// console.log(name)
+
+// var uname = "rafay";
+// var uname2 = "Thanks";
+// var uname3 = "!";
+// var totle = `${uname2} ${uname} ${uname3}`
+
+// console.log(totle)
+
+// alert(`hi ${uname2} ${uname} ${uname3} bye`)
+
+// console.log("2" + "2")
+
+
+// console.log("2 plus 2 q" + 2 + 2)
+
+// var age = prompt("enter your age","10");
+
+// console.log(typeof age)
+
+// var age = prompt("enter your age")    
+
+// if(age == null){
+//     alert("cancel kara app na")
+// }else{
+//     age = Number(age);
+//     alert(age + 1)
+// }
+
+var uname = prompt("enter your name");
+
+if(uname == "rafay"){
+    console.log("theek hai")
+} else{
+    console.log("theek nahi hai")
+}
