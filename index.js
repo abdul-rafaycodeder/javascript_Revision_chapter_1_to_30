@@ -255,3 +255,25 @@
 
 
 //--------JavaScript Type Conversion & Coercion--------//
+
+
+
+
+//--------Math expressions Unfamiliar operators--------//
+
+// var num = 1;
+// var num1 = ++num;
+// console.log(num1)
+// // console.log(num)
+
+// var num = 2;
+// var totle = num + 1;
+// console.log(totle)
+
+// var num1 = 5;
+// var totle = num1--;
+// console.log(totle);
+// console.log(num1)
+
+var num1 = 5;
+var 
