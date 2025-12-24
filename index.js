@@ -429,3 +429,7 @@ if (name == "rafay") {
 console.log("ya name nahi hai",name)
 }
 
+var uname = "rafay";
+
+console.log("nahi")
+
