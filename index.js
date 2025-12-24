@@ -362,16 +362,41 @@
 //     alert(age + 1)
 // }
 
-var uname = prompt("enter your name");
+// var uname = prompt("enter your name");
+// var age = +prompt("enter your age");
+// var Marks = Number(prompt("enter your roll"));
 
-if (uname == "rafay") {
-    console.log("correct==>", uname)
-} else if(uname=="ali"){
-    console.log("correct==>", uname)
-}
-else if (uname=="osama"){
-    console.log("correct==>", uname)
-}
-else {
-console.log("incorrect")
-}
+// if (uname === "rafay" && age === 30 && Marks >= 100) {
+//     console.log("correct==>", uname, age, Marks)
+// } else if (uname == "ali") {
+//     console.log("correct==>", uname)
+// }
+// else if (uname == "osama") {
+//     console.log("correct==>", uname)
+// }
+// else {
+//     console.log("incorrect")
+// }
+
+// var name = "rafay";
+// name = "osama"
+// console.log(name)
+
+// var age = prompt("enter your age")
+
+// if (age !== 30){
+//     console.log("sahi")
+// } else{
+//     console.log("nahi sahi")
+// }
+
+// var age = prompt("enter");
+
+// if ( age == 20 || age == 15 ){
+
+// console.log("correct")
+
+// } else{
+//     console.log("incorrect")
+// }
+    
