@@ -399,4 +399,33 @@
 // } else{
 //     console.log("incorrect")
 // }
-    
+
+// var name = prompt("enter your name")
+
+// if (name == "ali") {
+//     console.log("ya naam hai==>", name)
+// } else {
+//     console.log("ya naam nahi hai==>", name)
+// }
+
+// var marks = 65;
+
+// if (marks >= 80) {
+//   console.log("A Grade");
+// } else if (marks >= 60) {
+//   console.log("B Grade");
+// } else {
+//   console.log("Fail");
+// }
+
+
+// ----------------------------------------------------------- //
+
+var name = prompt("enter your name");
+
+if (name == "rafay") {
+  console.log("sahi hai", name)
+} else {
+console.log("ya name nahi hai",name)
+}
+
