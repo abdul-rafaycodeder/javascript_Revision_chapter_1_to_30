@@ -430,6 +430,7 @@
 // // }
 
 // var all_in_one = prompt("enter all in one")
+
 // var uname = "ali";
 // var age = 10;
 // var marks = 100;
@@ -473,4 +474,6 @@
 // } else {
 // console.log("nahi chala")
 // }
+
+
 
