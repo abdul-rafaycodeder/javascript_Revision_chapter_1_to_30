@@ -488,3 +488,19 @@
 //     alert("Come to our cookout!");
 // }
 
+// var full$Name = prompt("enter your name");
+// var GPA = prompt("enter your GPA");
+// var sport = prompt("enter your sport");
+
+// if (full$Name === "ali" || GPA > 2.5 || sport === "football") {
+//     alert("Welcome to Bubba State!");
+// }
+// else {
+//     alert("Have you looked into appliance repair?");
+// }
+
+// --- array---
+
+// var arr = ["ali","osama","khalid"];
+
+// console.log(arr[0])
