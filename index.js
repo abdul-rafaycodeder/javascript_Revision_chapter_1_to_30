@@ -429,4 +429,25 @@
 // console.log("ya name nahi hai",marks)
 // }
 
+var uname = "ali";
+var age = 10;
+var marks = 100;
+var roll = 73;
 
+if (uname == "ali") {
+    if (age == 10) {
+        if (marks == 100) {
+            if (roll == 73) {
+                console.log("correct name and age===>", uname, age, marks, roll);
+            } else {
+                console.log("nahi chala na roll")
+            }
+        } else {
+            console.log("nahi chala marks")
+        }
+    } else {
+        console.log("nahi chala age")
+    }
+} else {
+    console.log("nahi chala uname")
+}
