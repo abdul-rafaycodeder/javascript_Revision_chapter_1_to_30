@@ -516,5 +516,18 @@
 // console.log(arr[arr.length-1])
 // console.log(arr[arr.length-51])
 
+// var name = "rafay"
 
- var name = "rfaya"
+// var arr = ['rafay','osama','kinza','ali']
+
+// console.log(arr[0] = "67")
+
+
+var arr = ['soama', 'kakakakakakaka', 'kinza', 'ali', 'rafay', 'osama', 'kinza', 'ali', 'rafay', 'osama', 'kinza', 'ali', 'rafay', 'osama', 'kinza', 'ali', 'rafay', 'osama', 'kinza', 'ali', 'rafay', 'osama', 'kinza', 'ali', 'rafay', 'osama', 'kinza', 'ali', 'rafay', 'osama', 'asas', 'fsjdfhsjkdfhsjdfhsjkd1']
+
+for (var i = 0; i < arr.length; i++) {
+    console.log(arr[i]);
+
+}
+
+var 
