@@ -421,15 +421,12 @@
 
 // ----------------------------------------------------------- //
 
-var name = prompt("enter your name");
+// var marks = prompt("enter your name");
 
-if (name == "rafay") {
-  console.log("sahi hai", name)
-} else {
-console.log("ya name nahi hai",name)
-}
+// if (marks === "rafay") {
+//   console.log("sahi hai", marks)
+// } else {
+// console.log("ya name nahi hai",marks)
+// }
 
-var uname = "rafay";
-
-console.log("nahi")
 
