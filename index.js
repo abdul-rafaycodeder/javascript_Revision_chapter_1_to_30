@@ -504,3 +504,17 @@
 // var arr = ["ali","osama","khalid"];
 
 // console.log(arr[0])
+
+
+
+// var arr  = [];
+
+// arr [200] = "ali"
+// arr [150] = "rafay"
+
+
+// console.log(arr[arr.length-1])
+// console.log(arr[arr.length-51])
+
+
+ 
