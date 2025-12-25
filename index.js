@@ -475,5 +475,16 @@
 // console.log("nahi chala")
 // }
 
+// var weight = prompt("enter your weight");
+// var time = prompt("enter your time");
+// var age = prompt("enter your age");
+// var gender = prompt("enter your gender");
 
+
+// if (weight > 300 && time < 6 && age > 17 && gender === "male") {
+//     alert("Come to our tryout!");
+// }
+// else {
+//     alert("Come to our cookout!");
+// }
 
