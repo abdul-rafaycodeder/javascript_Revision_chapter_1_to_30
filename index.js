@@ -536,7 +536,7 @@
 
 // // for (let i = 0; i < arr .length; i++) {
 // //    console.log(arr [i]);
-    
+
 // // }
 
 
@@ -615,7 +615,7 @@
 
 // console.log(arr)
 
-var arr = ['rafay',10,20,30,40,50]
+// var arr = ['rafay',10,20,30,40,50]
 
 // arr.pop()
 // arr.pop()
@@ -624,5 +624,29 @@ var arr = ['rafay',10,20,30,40,50]
 // arr.shift()
 // arr.shift()
 // arr.splice(0 , 3)
+
+// console.log(arr)
+
+// var arr = [];
+
+// arr[200] = "rafay"
+// console.log(arr)
+
+// console.log(arr.length)
+
+var arr = ['theek hai', 'ok', 10, 4, 5 ,10 ]
+
+// var modi = arr.shift()
+// var modi = arr.shift()
+// var modi = arr.shift()
+// var modi = arr.unshift('nahi theek')
+// var modi = arr.pop()
+// var modi_2 = arr.push("rafay")
+// var modi_2 = arr.shift()
+// var modi = arr.unshift( 'ok' , 'nahi' , 'chal')
+// console.log(modi_2)
+// console.log(modi) 
+
+
 
 console.log(arr)
