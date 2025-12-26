@@ -523,11 +523,26 @@
 // console.log(arr[0] = "67")
 
 
-var arr = ['soama', 'kakakakakakaka', 'kinza', 'ali', 'rafay', 'osama', 'kinza', 'ali', 'rafay', 'osama', 'kinza', 'ali', 'rafay', 'osama', 'kinza', 'ali', 'rafay', 'osama', 'kinza', 'ali', 'rafay', 'osama', 'kinza', 'ali', 'rafay', 'osama', 'kinza', 'ali', 'rafay', 'osama', 'asas', 'fsjdfhsjkdfhsjdfhsjkd1']
+// var arr = ['soama', 'kakakakakakaka', 'kinza', 'ali', 'rafay', 'osama', 'kinza', 'ali', 'rafay', 'osama', 'kinza', 'ali', 'rafay', 'osama', 'kinza', 'ali', 'rafay', 'osama', 'kinza', 'ali', 'rafay', 'osama', 'kinza', 'ali', 'rafay', 'osama', 'kinza', 'ali', 'rafay', 'osama', 'asas', 'fsjdfhsjkdfhsjdfhsjkd1']
 
-for (var i = 0; i < arr.length; i++) {
-    console.log(arr[i]);
+// for (var i = 0; i < arr.length; i++) {
+//     console.log(arr[i]);
 
-}
+// }
 
-var 
+// var arr = ["rafay",50,true]
+
+// for (let i = 0; i < arr .length; i++) {
+//    console.log(arr [i]);
+    
+// }
+
+
+// var arr = ['rafya','osama','ali',1001]
+
+// console.log(arr)
+
+// var arr = ['rafay','osama','ali']
+
+// alert('welcome to ' + arr[1])
+
