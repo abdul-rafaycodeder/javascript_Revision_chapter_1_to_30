@@ -1,652 +1,707 @@
-// // //-------alert: cahpter 1----------//
+// // // // //-------alert: cahpter 1----------//
 
-// const { useLayoutEffect } = require("react");
+// // // const { useLayoutEffect } = require("react");
 
-// // // alert("this a first chapter")
+// // // // // alert("this a first chapter")
 
-// // // var uname = {
-// // //     fullName:"rafay",
-// // //     rollNumber: 30,
-// // //     age: 18,
-// // // }
+// // // // // var uname = {
+// // // // //     fullName:"rafay",
+// // // // //     rollNumber: 30,
+// // // // //     age: 18,
+// // // // // }
 
-// // // console.log(uname)
+// // // // // console.log(uname)
 
-// // // var test;
-// // // test = "osama"
-// // // console.log(test)
+// // // // // var test;
+// // // // // test = "osama"
+// // // // // console.log(test)
 
-// // // var uname = null;
+// // // // // var uname = null;
 
-// // // console.log(uname)
+// // // // // console.log(uname)
 
-// // // var uname = "Marks"
+// // // // // var uname = "Marks"
 
-// // // uname = "osama"
+// // // // // uname = "osama"
 
-// // // alert(uname)
+// // // // // alert(uname)
 
-// // // var uname = "rafay"
+// // // // // var uname = "rafay"
 
-// // // var fullName;
-// // // fullName = "rafay"
-// // // alert(fullName)
+// // // // // var fullName;
+// // // // // fullName = "rafay"
+// // // // // alert(fullName)
 
-// // // var name = typeof(10)
+// // // // // var name = typeof(10)
 
-// // // console.log(name)
+// // // // // console.log(name)
 
-// // // var uname = "Marks"
-// // // let uname = "rafay"
+// // // // // var uname = "Marks"
+// // // // // let uname = "rafay"
 
 
-// // // console.log(uname)
+// // // // // console.log(uname)
 
-// // // var fullName = "osama"
+// // // // // var fullName = "osama"
 
-// // // var namefullName = "rafay"
+// // // // // var namefullName = "rafay"
 
-// // // console.log(namefullName,fullName);
+// // // // // console.log(namefullName,fullName);
 
-// // // var uname = "this is a javascript practic chapter 1 t 30";
+// // // // // var uname = "this is a javascript practic chapter 1 t 30";
 
-// // // alert(uname);
+// // // // // alert(uname);
 
-// // // var city = "Lahore";
-// // // city = "Karachi";
-// // // alert(city);
+// // // // // var city = "Lahore";
+// // // // // city = "Karachi";
+// // // // // alert(city);
 
 
-// // // var  = "rafay"
+// // // // // var  = "rafay"
 
-// // // var name = "rafay" 
+// // // // // var name = "rafay" 
 
-// // // var uname = typeof('rafay')
-// // // console.log(uname)
+// // // // // var uname = typeof('rafay')
+// // // // // console.log(uname)
 
-// // // var uname = typeof(10);
+// // // // // var uname = typeof(10);
 
 
-// // // console.log(uname)
+// // // // // console.log(uname)
 
-// // // const noum;
-// // // num = "osama"
-// // // console.log(num)
+// // // // // const noum;
+// // // // // num = "osama"
+// // // // // console.log(num)
 
-// // // var uname = "rafay"
+// // // // // var uname = "rafay"
 
-// // // var name = "rafay";
+// // // // // var name = "rafay";
 
-// // // var uname = "rafay";
+// // // // // var uname = "rafay";
 
-// // // uname = "Byee";
+// // // // // uname = "Byee";
 
-// // // uname = "Hello";
+// // // // // uname = "Hello";
 
-// // // uname = "osama"
-// // // console.log(uname);
+// // // // // uname = "osama"
+// // // // // console.log(uname);
 
-// // // var name
+// // // // // var name
 
-// // // var a = 9;
-// // // var b = 10;
-// // // alert(a == b);
+// // // // // var a = 9;
+// // // // // var b = 10;
+// // // // // alert(a == b);
 
-// // // var a = "10"
-// // // var b = 10
+// // // // // var a = "10"
+// // // // // var b = 10
 
-// // // console.log(uname)
+// // // // // console.log(uname)
 
-// // // var a = "10";
-// // // var b = 10;
-// // // alert(a === b);
+// // // // // var a = "10";
+// // // // // var b = 10;
+// // // // // alert(a === b);
 
-// // // var uname = "Hello"
+// // // // // var uname = "Hello"
 
-// // // console.log(uname + " World")
+// // // // // console.log(uname + " World")
 
-// // // var full$Name
+// // // // // var full$Name
 
-// // // var a = "5";
-// // // var b = a;
-// // // b = "10";
-// // // alert(a);
+// // // // // var a = "5";
+// // // // // var b = a;
+// // // // // b = "10";
+// // // // // alert(a);
 
-// // // var x = 10;
-// // // var y = 10;
-// // // console.log(x + y)
+// // // // // var x = 10;
+// // // // // var y = 10;
+// // // // // console.log(x + y)
 
-// // // var uname;
+// // // // // var uname;
 
-// // // var a;
-// // // console.log(a == undefined)
+// // // // // var a;
+// // // // // console.log(a == undefined)
 
 
-// // // var uname;
+// // // // // var uname;
 
-// // // console.log(uname)
+// // // // // console.log(uname)
 
 
-// // // console.log(typeof a)
+// // // // // console.log(typeof a)
 
-// // // let  let 
+// // // // // let  let 
 
-// // //-------------Variables for Numbers: chapter 3------------//
+// // // // //-------------Variables for Numbers: chapter 3------------//
 
 
-// // // var x = "3";
-// // // var y = 2;
-// // // alert(x * y);
+// // // // // var x = "3";
+// // // // // var y = 2;
+// // // // // alert(x * y);
 
-// // // var x = "rafay";
-// // // var y = 5;
-// // // alert(x - y);
+// // // // // var x = "rafay";
+// // // // // var y = 5;
+// // // // // alert(x - y);
 
 
-// // // var uname = 1;
-// // // console.log(uname == false)
+// // // // // var uname = 1;
+// // // // // console.log(uname == false)
 
-// // // var a = "5";
-// // // alert(++a);
+// // // // // var a = "5";
+// // // // // alert(++a);
 
-// // // var name = "rafay";
+// // // // // var name = "rafay";
 
-// // // console.log(name)
+// // // // // console.log(name)
 
-// // // var weight = 150;
+// // // // // var weight = 150;
 
-// // // weight + 25; 
+// // // // // weight + 25; 
 
-// // // console.log(weight)
+// // // // // console.log(weight)
 
 
-// // // var originalNumber = 10;
-// // // var newNumber = originalNumber + 20
+// // // // // var originalNumber = 10;
+// // // // // var newNumber = originalNumber + 20
 
-// // // console.log(newNumber)
+// // // // // console.log(newNumber)
 
 
-// // // var firstNumber = "20";
-// // // var secondNumber = 20;
-// // // var result = firstNumber + secondNumber;
-// // // console.log(result)
+// // // // // var firstNumber = "20";
+// // // // // var secondNumber = 20;
+// // // // // var result = firstNumber + secondNumber;
+// // // // // console.log(result)
 
-// // // var age = 18;
-// // // age = age + 10;
-// // // console.log(age)
+// // // // // var age = 18;
+// // // // // age = age + 10;
+// // // // // console.log(age)
 
-// // // var originalNumber = 23;
-// // // var newNum = originalNumber + 10;
+// // // // // var originalNumber = 23;
+// // // // // var newNum = originalNumber + 10;
 
-// // // console.log(newNum)
+// // // // // console.log(newNum)
 
-// // // console.log(typeof originalNumber)
+// // // // // console.log(typeof originalNumber)
 
-// // // var 3Name
+// // // // // var 3Name
 
-// // // alert(144)
+// // // // // alert(144)
 
-// // // var num = 10;
-// // // alert(num) 
+// // // // // var num = 10;
+// // // // // alert(num) 
 
-// // // var age = 10;
-// // // alert(age + 19)
+// // // // // var age = 10;
+// // // // // alert(age + 19)
 
-// // // var age = "10";
-// // // alert(age + 19)
+// // // // // var age = "10";
+// // // // // alert(age + 19)
 
-// // // var a = "20";
-// // // var b = 5;
-// // // alert(a + b);
+// // // // // var a = "20";
+// // // // // var b = 5;
+// // // // // alert(a + b);
 
-// // // var a = 20;
-// // // var b = 5;
-// // // alert(a + b);
+// // // // // var a = 20;
+// // // // // var b = 5;
+// // // // // alert(a + b);
 
-// // //------Variable Names Legal and Illegal: chapter 4------//
+// // // // //------Variable Names Legal and Illegal: chapter 4------//
 
 
-// // // var 2345678  
+// // // // // var 2345678  
 
-// // // var full$Name name  
+// // // // // var full$Name name  
 
-// // // var fullName10
+// // // // // var fullName10
 
-// // // var uname = "rafay"
+// // // // // var uname = "rafay"
 
-// // // alert(Uname)
+// // // // // alert(Uname)
 
-// // //--start Sir Ibrahim youtube video Ecmascript revision chapter 1-5--// 
+// // // // //--start Sir Ibrahim youtube video Ecmascript revision chapter 1-5--// 
 
-// // // var var = "rafay" // reservet keyword
+// // // // // var var = "rafay" // reservet keyword
 
-// // // var myFirstName = "Rafay";
-// // // var myFirstName = //reinitailized
-// // // myFirstName = "Rafay change" //reassige 
+// // // // // var myFirstName = "Rafay";
+// // // // // var myFirstName = //reinitailized
+// // // // // myFirstName = "Rafay change" //reassige 
 
-// // // let myFirstName = "Rafay"
-// // // let myFirstName = "Rafay" // let keyword reinitailized nahi hota
-// // // myFirstName = "Rafay change" // let keyword reassige hota hai
+// // // // // let myFirstName = "Rafay"
+// // // // // let myFirstName = "Rafay" // let keyword reinitailized nahi hota
+// // // // // myFirstName = "Rafay change" // let keyword reassige hota hai
 
 
-// // // const myFirstName = "Rafay"
-// // // const myFirstName = "Rafay" // const keyword reinitailized nahi hota
-// // // myFirstName = "Rafay change"// const keyword reassige nahi hota
+// // // // // const myFirstName = "Rafay"
+// // // // // const myFirstName = "Rafay" // const keyword reinitailized nahi hota
+// // // // // myFirstName = "Rafay change"// const keyword reassige nahi hota
 
-// // // console.log(myFirstName)
-// // // var myFirstName = "Rafay";
+// // // // // console.log(myFirstName)
+// // // // // var myFirstName = "Rafay";
 
-// // // console.log(myFirstName)
-// // // let myFirstName = "Rafay"; //TDZ from: temporal dead zone
+// // // // // console.log(myFirstName)
+// // // // // let myFirstName = "Rafay"; //TDZ from: temporal dead zone
 
-// // // console.log(myFirstName)
-// // // const myFirstName = "Rafay";//TDZ from: temporal dead zone
+// // // // // console.log(myFirstName)
+// // // // // const myFirstName = "Rafay";//TDZ from: temporal dead zone
 
-// // // var Numbers = 10;
+// // // // // var Numbers = 10;
 
-// // // var NumbersPlus = Numbers + 10;
+// // // // // var NumbersPlus = Numbers + 10;
 
-// // // console.log("number",Numbers,NumbersPlus)
+// // // // // console.log("number",Numbers,NumbersPlus)
 
-// // // coersion
+// // // // // coersion
 
-// // // alert(2 + 2)
+// // // // // alert(2 + 2)
 
-// // // var Mo = 10 / 0;
-// // // console.log(Mo)
+// // // // // var Mo = 10 / 0;
+// // // // // console.log(Mo)
 
 
-// // //--------JavaScript Type Conversion & Coercion--------//
+// // // // //--------JavaScript Type Conversion & Coercion--------//
 
 
 
 
-// // //--------Math expressions Unfamiliar operators--------//
+// // // // //--------Math expressions Unfamiliar operators--------//
 
-// // // var num = 1;
-// // // var num1 = ++num;
-// // // console.log(num1)
-// // // // console.log(num)
+// // // // // var num = 1;
+// // // // // var num1 = ++num;
+// // // // // console.log(num1)
+// // // // // // console.log(num)
 
-// // // var num = 2;
-// // // var totle = num + 1;
-// // // console.log(totle)
+// // // // // var num = 2;
+// // // // // var totle = num + 1;
+// // // // // console.log(totle)
 
-// // // var num1 = 5;
-// // // var totle = num1--;
-// // // console.log(totle);
-// // // console.log(num1)
+// // // // // var num1 = 5;
+// // // // // var totle = num1--;
+// // // // // console.log(totle);
+// // // // // console.log(num1)
 
-// // // var num1 = 5;
-// // // var totle = num1 - 2;
-// // // console.log(totle)
+// // // // // var num1 = 5;
+// // // // // var totle = num1 - 2;
+// // // // // console.log(totle)
 
-// // // var num = 5;
-// // // var newNum = num--;
-// // // console.log(newNum)
-// // // console.log(num);
+// // // // // var num = 5;
+// // // // // var newNum = num--;
+// // // // // console.log(newNum)
+// // // // // console.log(num);
 
-// // // var x = 3;
-// // // var y = x++ + 2;
-// // // alert(y);
+// // // // // var x = 3;
+// // // // // var y = x++ + 2;
+// // // // // alert(y);
 
-// // // var num = 2;
-// // // var num2 = ++num;
-// // // console.log(num2);
-// // // console.log(num);
+// // // // // var num = 2;
+// // // // // var num2 = ++num;
+// // // // // console.log(num2);
+// // // // // console.log(num);
 
-// // // var num = 5;
-// // // var totle = ++num;
-// // // console.log(totle)
+// // // // // var num = 5;
+// // // // // var totle = ++num;
+// // // // // console.log(totle)
 
-// // // var num = 5;
-// // // var totle = num--;
-// // // console.log(totle)
-// // // console.log(num)
+// // // // // var num = 5;
+// // // // // var totle = num--;
+// // // // // console.log(totle)
+// // // // // console.log(num)
 
-// // // console.log(num--)
-// // // console.log(num)
+// // // // // console.log(num--)
+// // // // // console.log(num)
 
-// // // var num2 = 10;
-// // // console.log( 1 + num2)
+// // // // // var num2 = 10;
+// // // // // console.log( 1 + num2)
 
-// // // console.log(++num);
+// // // // // console.log(++num);
 
-// // // var a = 1;
-// // // var b = 1;
+// // // // // var a = 1;
+// // // // // var b = 1;
 
-// // // var totle = ++a + b++;
+// // // // // var totle = ++a + b++;
 
-// // // console.log(totle)
+// // // // // console.log(totle)
 
-// // // var fname = "abdul";
+// // // // // var fname = "abdul";
 
-// // // var lName = prompt("enter your last name");
+// // // // // var lName = prompt("enter your last name");
 
-// // // alert( "kya hal hai " + fname + " " +  lName)
+// // // // // alert( "kya hal hai " + fname + " " +  lName)
 
-// // // console.log(fname + " " + lName)
+// // // // // console.log(fname + " " + lName)
 
-// // // console.log(`hi==> ${fname} ${lName} <==kya hal hai`)
+// // // // // console.log(`hi==> ${fname} ${lName} <==kya hal hai`)
 
-// // // alert("Thanks for your input")
+// // // // // alert("Thanks for your input")
 
-// // // var name = "Thanks for your input";
+// // // // // var name = "Thanks for your input";
 
-// // // alert(name)
+// // // // // alert(name)
 
-// // // console.log(name)
+// // // // // console.log(name)
 
-// // // var uname = "rafay";
-// // // var uname2 = "Thanks";
-// // // var uname3 = "!";
-// // // var totle = `${uname2} ${uname} ${uname3}`
+// // // // // var uname = "rafay";
+// // // // // var uname2 = "Thanks";
+// // // // // var uname3 = "!";
+// // // // // var totle = `${uname2} ${uname} ${uname3}`
 
-// // // console.log(totle)
+// // // // // console.log(totle)
 
-// // // alert(`hi ${uname2} ${uname} ${uname3} bye`)
+// // // // // alert(`hi ${uname2} ${uname} ${uname3} bye`)
 
-// // // console.log("2" + "2")
+// // // // // console.log("2" + "2")
 
 
-// // // console.log("2 plus 2 q" + 2 + 2)
+// // // // // console.log("2 plus 2 q" + 2 + 2)
 
-// // // var age = prompt("enter your age","10");
+// // // // // var age = prompt("enter your age","10");
 
-// // // console.log(typeof age)
+// // // // // console.log(typeof age)
 
-// // // var age = prompt("enter your age")    
+// // // // // var age = prompt("enter your age")    
 
-// // // if(age == null){
-// // //     alert("cancel kara app na")
-// // // }else{
-// // //     age = Number(age);
-// // //     alert(age + 1)
-// // // }
+// // // // // if(age == null){
+// // // // //     alert("cancel kara app na")
+// // // // // }else{
+// // // // //     age = Number(age);
+// // // // //     alert(age + 1)
+// // // // // }
 
-// // // var uname = prompt("enter your name");
-// // // var age = +prompt("enter your age");
-// // // var Marks = Number(prompt("enter your roll"));
+// // // // // var uname = prompt("enter your name");
+// // // // // var age = +prompt("enter your age");
+// // // // // var Marks = Number(prompt("enter your roll"));
 
-// // // if (uname === "rafay" && age === 30 && Marks >= 100) {
-// // //     console.log("correct==>", uname, age, Marks)
-// // // } else if (uname == "ali") {
-// // //     console.log("correct==>", uname)
-// // // }
-// // // else if (uname == "osama") {
-// // //     console.log("correct==>", uname)
-// // // }
-// // // else {
-// // //     console.log("incorrect")
-// // // }
+// // // // // if (uname === "rafay" && age === 30 && Marks >= 100) {
+// // // // //     console.log("correct==>", uname, age, Marks)
+// // // // // } else if (uname == "ali") {
+// // // // //     console.log("correct==>", uname)
+// // // // // }
+// // // // // else if (uname == "osama") {
+// // // // //     console.log("correct==>", uname)
+// // // // // }
+// // // // // else {
+// // // // //     console.log("incorrect")
+// // // // // }
 
-// // // var name = "rafay";
-// // // name = "osama"
-// // // console.log(name)
+// // // // // var name = "rafay";
+// // // // // name = "osama"
+// // // // // console.log(name)
 
-// // // var age = prompt("enter your age")
+// // // // // var age = prompt("enter your age")
 
-// // // if (age !== 30){
-// // //     console.log("sahi")
-// // // } else{
-// // //     console.log("nahi sahi")
-// // // }
+// // // // // if (age !== 30){
+// // // // //     console.log("sahi")
+// // // // // } else{
+// // // // //     console.log("nahi sahi")
+// // // // // }
 
-// // // var age = prompt("enter");
+// // // // // var age = prompt("enter");
 
-// // // if ( age == 20 || age == 15 ){
+// // // // // if ( age == 20 || age == 15 ){
 
-// // // console.log("correct")
+// // // // // console.log("correct")
 
-// // // } else{
-// // //     console.log("incorrect")
-// // // }
+// // // // // } else{
+// // // // //     console.log("incorrect")
+// // // // // }
 
-// // // var name = prompt("enter your name")
+// // // // // var name = prompt("enter your name")
 
-// // // if (name == "ali") {
-// // //     console.log("ya naam hai==>", name)
-// // // } else {
-// // //     console.log("ya naam nahi hai==>", name)
-// // // }
+// // // // // if (name == "ali") {
+// // // // //     console.log("ya naam hai==>", name)
+// // // // // } else {
+// // // // //     console.log("ya naam nahi hai==>", name)
+// // // // // }
 
-// // // var marks = 65;
+// // // // // var marks = 65;
 
-// // // if (marks >= 80) {
-// // //   console.log("A Grade");
-// // // } else if (marks >= 60) {
-// // //   console.log("B Grade");
-// // // } else {
-// // //   console.log("Fail");
-// // // }
+// // // // // if (marks >= 80) {
+// // // // //   console.log("A Grade");
+// // // // // } else if (marks >= 60) {
+// // // // //   console.log("B Grade");
+// // // // // } else {
+// // // // //   console.log("Fail");
+// // // // // }
 
 
-// // // ----------------------------------------------------------- //
+// // // // // ----------------------------------------------------------- //
 
-// // // var marks = prompt("enter your name");
+// // // // // var marks = prompt("enter your name");
 
-// // // if (marks === "rafay") {
-// // //   console.log("sahi hai", marks)
-// // // } else {
-// // // console.log("ya name nahi hai",marks)
-// // // }
+// // // // // if (marks === "rafay") {
+// // // // //   console.log("sahi hai", marks)
+// // // // // } else {
+// // // // // console.log("ya name nahi hai",marks)
+// // // // // }
 
-// // var all_in_one = prompt("enter all in one")
+// // // // var all_in_one = prompt("enter all in one")
 
-// // var uname = "ali";
-// // var age = 10;
-// // var marks = 100;
-// // var roll = 73;
+// // // // var uname = "ali";
+// // // // var age = 10;
+// // // // var marks = 100;
+// // // // var roll = 73;
 
-// // if (all_in_one == 30) {
-// //     console.log("all in one correct", all_in_one, uname, age, marks, roll)
-// //     if (uname == "ali") {
-// //         if (age == 10) {
-// //             if (marks == 100) {
-// //                 if (roll == 73) {
-// //                 } else {
-// //                     console.log("nahi chala na roll")
-// //                 }
-// //             } else {
-// //                 console.log("nahi chala marks")
-// //             }
-// //         } else {
-// //             console.log("nahi chala age")
-// //         }
-// //     } else {
-// //         console.log("nahi chala uname")
-// //     }
-// // } else{
-// //     console.log("mahi chala all in one")
-// // }
+// // // // if (all_in_one == 30) {
+// // // //     console.log("all in one correct", all_in_one, uname, age, marks, roll)
+// // // //     if (uname == "ali") {
+// // // //         if (age == 10) {
+// // // //             if (marks == 100) {
+// // // //                 if (roll == 73) {
+// // // //                 } else {
+// // // //                     console.log("nahi chala na roll")
+// // // //                 }
+// // // //             } else {
+// // // //                 console.log("nahi chala marks")
+// // // //             }
+// // // //         } else {
+// // // //             console.log("nahi chala age")
+// // // //         }
+// // // //     } else {
+// // // //         console.log("nahi chala uname")
+// // // //     }
+// // // // } else{
+// // // //     console.log("mahi chala all in one")
+// // // // }
 
-// // var age = prompt("enter your age");
+// // // // var age = prompt("enter your age");
 
-// // if (age == 30) {
-// //     console.log("chal gaya age==>", age)
-// // } else {
-// //     console.log("ya nahi hai age==>", age)
-// // }
+// // // // if (age == 30) {
+// // // //     console.log("chal gaya age==>", age)
+// // // // } else {
+// // // //     console.log("ya nahi hai age==>", age)
+// // // // }
 
-// // var fullName = prompt("enter your name")
+// // // // var fullName = prompt("enter your name")
 
 
-// // if (fullName == "ali") {
-// //     console.log(` chal gaya ${fullName} khan`)
-// // } else {
-// // console.log("nahi chala")
-// // }
+// // // // if (fullName == "ali") {
+// // // //     console.log(` chal gaya ${fullName} khan`)
+// // // // } else {
+// // // // console.log("nahi chala")
+// // // // }
 
-// // var weight = prompt("enter your weight");
-// // var time = prompt("enter your time");
-// // var age = prompt("enter your age");
-// // var gender = prompt("enter your gender");
+// // // // var weight = prompt("enter your weight");
+// // // // var time = prompt("enter your time");
+// // // // var age = prompt("enter your age");
+// // // // var gender = prompt("enter your gender");
 
 
-// // if (weight > 300 && time < 6 && age > 17 && gender === "male") {
-// //     alert("Come to our tryout!");
-// // }
-// // else {
-// //     alert("Come to our cookout!");
-// // }
+// // // // if (weight > 300 && time < 6 && age > 17 && gender === "male") {
+// // // //     alert("Come to our tryout!");
+// // // // }
+// // // // else {
+// // // //     alert("Come to our cookout!");
+// // // // }
 
-// // var full$Name = prompt("enter your name");
-// // var GPA = prompt("enter your GPA");
-// // var sport = prompt("enter your sport");
+// // // // var full$Name = prompt("enter your name");
+// // // // var GPA = prompt("enter your GPA");
+// // // // var sport = prompt("enter your sport");
 
-// // if (full$Name === "ali" || GPA > 2.5 || sport === "football") {
-// //     alert("Welcome to Bubba State!");
-// // }
-// // else {
-// //     alert("Have you looked into appliance repair?");
-// // }
+// // // // if (full$Name === "ali" || GPA > 2.5 || sport === "football") {
+// // // //     alert("Welcome to Bubba State!");
+// // // // }
+// // // // else {
+// // // //     alert("Have you looked into appliance repair?");
+// // // // }
 
-// // --- array---
+// // // // --- array---
 
-// // var arr = ["ali","osama","khalid"];
+// // // // var arr = ["ali","osama","khalid"];
 
-// // console.log(arr[0])
+// // // // console.log(arr[0])
 
 
 
-// // var arr  = [];
+// // // // var arr  = [];
 
-// // arr [200] = "ali"
-// // arr [150] = "rafay"
+// // // // arr [200] = "ali"
+// // // // arr [150] = "rafay"
 
 
-// // console.log(arr[arr.length-1])
-// // console.log(arr[arr.length-51])
+// // // // console.log(arr[arr.length-1])
+// // // // console.log(arr[arr.length-51])
 
-// // var name = "rafay"
+// // // // var name = "rafay"
 
-// // var arr = ['rafay','osama','kinza','ali']
+// // // // var arr = ['rafay','osama','kinza','ali']
 
-// // console.log(arr[0] = "67")
+// // // // console.log(arr[0] = "67")
 
 
-// // var arr = ['soama', 'kakakakakakaka', 'kinza', 'ali', 'rafay', 'osama', 'kinza', 'ali', 'rafay', 'osama', 'kinza', 'ali', 'rafay', 'osama', 'kinza', 'ali', 'rafay', 'osama', 'kinza', 'ali', 'rafay', 'osama', 'kinza', 'ali', 'rafay', 'osama', 'kinza', 'ali', 'rafay', 'osama', 'asas', 'fsjdfhsjkdfhsjdfhsjkd1']
+// // // // var arr = ['soama', 'kakakakakakaka', 'kinza', 'ali', 'rafay', 'osama', 'kinza', 'ali', 'rafay', 'osama', 'kinza', 'ali', 'rafay', 'osama', 'kinza', 'ali', 'rafay', 'osama', 'kinza', 'ali', 'rafay', 'osama', 'kinza', 'ali', 'rafay', 'osama', 'kinza', 'ali', 'rafay', 'osama', 'asas', 'fsjdfhsjkdfhsjdfhsjkd1']
 
-// // for (var i = 0; i < arr.length; i++) {
-// //     console.log(arr[i]);
+// // // // for (var i = 0; i < arr.length; i++) {
+// // // //     console.log(arr[i]);
 
-// // }
+// // // // }
 
-// // var arr = ["rafay",50,true]
+// // // // var arr = ["rafay",50,true]
 
-// // for (let i = 0; i < arr .length; i++) {
-// //    console.log(arr [i]);
+// // // // for (let i = 0; i < arr .length; i++) {
+// // // //    console.log(arr [i]);
 
-// // }
+// // // // }
 
 
-// // var arr = ['rafya','osama','ali',1001]
+// // // // var arr = ['rafya','osama','ali',1001]
+
+// // // // console.log(arr)
+
+// // // // var arr = ['rafay','osama','ali']
+
+// // // // alert('welcome to ' + arr[1])
+
+// // // // var arr = [1,'ali',true]
+
+// // // // console.log(arr[0] + "rafay")
+
+
+// // // // var arr = ['rafay',30,true]
+
+// // // // alert(arr[0])
+
+// // // // 0
+
+// // // // var arr = []
+
+// // // // arr = "rafay"
+
+// // // // console.log(arr)
+
+// // // // var array = [];
+
+// // // // array[0] = "rafay";
+// // // // array[1] = 10;
+// // // // array[2] = true;
+
+
+// // // // console.log(array)
+// // // // console.log(array.pop("rafay"))
+
+
+// // // var arr = ['ali',40,true];
+
+// // // console.log(arr)
+// // // console.log(arr[2])
+
+// // // arr.push("chall gaya")
+
+// // // console.log(arr)
+
+// // // arr.pop()
+
+// // // console.log(arr)
+
+// // // arr.unshift("nice")
+
+// // // console.log(arr)
+
+// // // arr.shift()
+
+// // // console.log(arr)
+
+// // // var arr = ['rafay',40,20,'osama']
+
+// // // arr.push("nice",30 , 19)
+
+// // // arr.pop()
+
+// // // arr.unshift("nice", 30 , 10)
+
+// // // arr.shift()
+
+// // // console.log(arr)
+
+// // // var arr = ['rafay',20,30,40,50,60,'osama'];
+
+// // // arr.splice(0,2)
+
+// // // console.log(arr)
+
+// // // var arr = ['rafay',10,20,30,40,50]
+
+// // // arr.pop()
+// // // arr.pop()
+// // // arr.push('rafay', 'osama')
+// // // arr.unshift('rafay', 'osama')
+// // // arr.shift()
+// // // arr.shift()
+// // // arr.splice(0 , 3)
+
+// // // console.log(arr)
+
+// // // var arr = [];
+
+// // // arr[200] = "rafay"
+// // // console.log(arr)
+
+// // // console.log(arr.length)
+
+// // var arr = ['theek hai', 'ok', 10, 4, 5 ,10 ]
+
+// // // var modi = arr.shift()
+// // // var modi = arr.shift()
+// // // var modi = arr.shift()
+// // // var modi = arr.unshift('nahi theek')
+// // // var modi = arr.pop()
+// // // var modi_2 = arr.push("rafay")
+// // // var modi_2 = arr.shift()
+// // // var modi = arr.unshift( 'ok' , 'nahi' , 'chal')
+// // // console.log(modi_2)
+// // // console.log(modi) 
+
+// // arr.splice(3 , 2)
 
 // // console.log(arr)
 
-// // var arr = ['rafay','osama','ali']
 
-// // alert('welcome to ' + arr[1])
-
-// // var arr = [1,'ali',true]
-
-// // console.log(arr[0] + "rafay")
+// var cleanestCities = ["Cheyenne", "Santa Fe", "Tucson", "Great Falls", "Honolulu"];
+// var cityToCheck = "Cheyenne"
+// var cityToCheck = "Santa Fe"
 
 
-// // var arr = ['rafay',30,true]
+// if (cityToCheck === cleanestCities[0]) {
+//    alert("It's one of the cleanest cities first");
+// }
+// else if (cityToCheck === cleanestCities[1]) {
+//    alert("It's one of the cleanest cities second");
+// }
+// else if (cityToCheck === cleanestCities[2]) {
+//    alert("It's one of the cleanest cities thred");
+// }
+// else if (cityToCheck === cleanestCities[3]) {
+//    alert("It's one of the cleanest cities forgh");
+// }
+// else if (cityToCheck === cleanestCities[4]) {
+//    alert("It's one of the cleanest cities");
+// }
 
-// // alert(arr[0])
-
-// // 0
-
-// // var arr = []
-
-// // arr = "rafay"
-
-// // console.log(arr)
-
-// // var array = [];
-
-// // array[0] = "rafay";
-// // array[1] = 10;
-// // array[2] = true;
-
-
-// // console.log(array)
-// // console.log(array.pop("rafay"))
+// else {
+//    alert("It's not on the list");
+// }
 
 
-// var arr = ['ali',40,true];
+// var cleanestCities = ["Cheyenne", "Santa Fe", "Tucson", "Great Falls", "Honolulu"];
+// var cityToCheck = "Cheyenne"
 
-// console.log(arr)
-// console.log(arr[2])
-
-// arr.push("chall gaya")
-
-// console.log(arr)
-
-// arr.pop()
-
-// console.log(arr)
-
-// arr.unshift("nice")
-
-// console.log(arr)
-
-// arr.shift()
-
-// console.log(arr)
-
-// var arr = ['rafay',40,20,'osama']
-
-// arr.push("nice",30 , 19)
-
-// arr.pop()
-
-// arr.unshift("nice", 30 , 10)
-
-// arr.shift()
-
-// console.log(arr)
-
-// var arr = ['rafay',20,30,40,50,60,'osama'];
-
-// arr.splice(0,2)
-
-// console.log(arr)
-
-// var arr = ['rafay',10,20,30,40,50]
-
-// arr.pop()
-// arr.pop()
-// arr.push('rafay', 'osama')
-// arr.unshift('rafay', 'osama')
-// arr.shift()
-// arr.shift()
-// arr.splice(0 , 3)
-
-// console.log(arr)
-
-// var arr = [];
-
-// arr[200] = "rafay"
-// console.log(arr)
-
-// console.log(arr.length)
-
-var arr = ['theek hai', 'ok', 10, 4, 5 ,10 ]
-
-// var modi = arr.shift()
-// var modi = arr.shift()
-// var modi = arr.shift()
-// var modi = arr.unshift('nahi theek')
-// var modi = arr.pop()
-// var modi_2 = arr.push("rafay")
-// var modi_2 = arr.shift()
-// var modi = arr.unshift( 'ok' , 'nahi' , 'chal')
-// console.log(modi_2)
-// console.log(modi) 
+// for (var i = 0; i <= 4; i++) {
+//   if (cityToCheck === cleanestCities[0]) {
+//    console.log("chal gaya")
+//   }
+// }
 
 
+// var cleanestCities = ["Cheyenne", "Santa Fe", "Tucson", "Great Falls", "Honolulu"];
 
-console.log(arr)
+
+// for (let i = 0; i < cleanestCities.length; i++) {
+//    console.log(i)
+// }
+
+
+// for (let i = 0; i <= 10; i++) {
+//    console.log(i)
+// }
+
+// for (var i = 0; i <= 5; i++) {
+//    console.log(i)
+// }
+
+
