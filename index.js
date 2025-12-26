@@ -1,559 +1,628 @@
-// //-------alert: cahpter 1----------//
+// // //-------alert: cahpter 1----------//
 
-// // alert("this a first chapter")
+// const { useLayoutEffect } = require("react");
 
-// // var uname = {
-// //     fullName:"rafay",
-// //     rollNumber: 30,
-// //     age: 18,
-// // }
+// // // alert("this a first chapter")
 
-// // console.log(uname)
+// // // var uname = {
+// // //     fullName:"rafay",
+// // //     rollNumber: 30,
+// // //     age: 18,
+// // // }
 
-// // var test;
-// // test = "osama"
-// // console.log(test)
+// // // console.log(uname)
 
-// // var uname = null;
+// // // var test;
+// // // test = "osama"
+// // // console.log(test)
 
-// // console.log(uname)
+// // // var uname = null;
 
-// // var uname = "Marks"
+// // // console.log(uname)
 
-// // uname = "osama"
+// // // var uname = "Marks"
 
-// // alert(uname)
+// // // uname = "osama"
 
-// // var uname = "rafay"
+// // // alert(uname)
 
-// // var fullName;
-// // fullName = "rafay"
-// // alert(fullName)
+// // // var uname = "rafay"
 
-// // var name = typeof(10)
+// // // var fullName;
+// // // fullName = "rafay"
+// // // alert(fullName)
 
-// // console.log(name)
+// // // var name = typeof(10)
 
-// // var uname = "Marks"
-// // let uname = "rafay"
+// // // console.log(name)
 
+// // // var uname = "Marks"
+// // // let uname = "rafay"
 
-// // console.log(uname)
 
-// // var fullName = "osama"
+// // // console.log(uname)
 
-// // var namefullName = "rafay"
+// // // var fullName = "osama"
 
-// // console.log(namefullName,fullName);
+// // // var namefullName = "rafay"
 
-// // var uname = "this is a javascript practic chapter 1 t 30";
+// // // console.log(namefullName,fullName);
 
-// // alert(uname);
+// // // var uname = "this is a javascript practic chapter 1 t 30";
 
-// // var city = "Lahore";
-// // city = "Karachi";
-// // alert(city);
+// // // alert(uname);
 
+// // // var city = "Lahore";
+// // // city = "Karachi";
+// // // alert(city);
 
-// // var  = "rafay"
 
-// // var name = "rafay" 
+// // // var  = "rafay"
 
-// // var uname = typeof('rafay')
-// // console.log(uname)
+// // // var name = "rafay" 
 
-// // var uname = typeof(10);
+// // // var uname = typeof('rafay')
+// // // console.log(uname)
 
+// // // var uname = typeof(10);
 
-// // console.log(uname)
 
-// // const noum;
-// // num = "osama"
-// // console.log(num)
+// // // console.log(uname)
 
-// // var uname = "rafay"
-
-// // var name = "rafay";
-
-// // var uname = "rafay";
-
-// // uname = "Byee";
-
-// // uname = "Hello";
-
-// // uname = "osama"
-// // console.log(uname);
-
-// // var name
-
-// // var a = 9;
-// // var b = 10;
-// // alert(a == b);
-
-// // var a = "10"
-// // var b = 10
-
-// // console.log(uname)
-
-// // var a = "10";
-// // var b = 10;
-// // alert(a === b);
-
-// // var uname = "Hello"
-
-// // console.log(uname + " World")
-
-// // var full$Name
-
-// // var a = "5";
-// // var b = a;
-// // b = "10";
-// // alert(a);
-
-// // var x = 10;
-// // var y = 10;
-// // console.log(x + y)
-
-// // var uname;
-
-// // var a;
-// // console.log(a == undefined)
-
-
-// // var uname;
-
-// // console.log(uname)
-
-
-// // console.log(typeof a)
-
-// // let  let 
-
-// //-------------Variables for Numbers: chapter 3------------//
-
-
-// // var x = "3";
-// // var y = 2;
-// // alert(x * y);
-
-// // var x = "rafay";
-// // var y = 5;
-// // alert(x - y);
-
-
-// // var uname = 1;
-// // console.log(uname == false)
-
-// // var a = "5";
-// // alert(++a);
-
-// // var name = "rafay";
-
-// // console.log(name)
-
-// // var weight = 150;
-
-// // weight + 25; 
-
-// // console.log(weight)
-
-
-// // var originalNumber = 10;
-// // var newNumber = originalNumber + 20
-
-// // console.log(newNumber)
-
-
-// // var firstNumber = "20";
-// // var secondNumber = 20;
-// // var result = firstNumber + secondNumber;
-// // console.log(result)
-
-// // var age = 18;
-// // age = age + 10;
-// // console.log(age)
-
-// // var originalNumber = 23;
-// // var newNum = originalNumber + 10;
-
-// // console.log(newNum)
-
-// // console.log(typeof originalNumber)
-
-// // var 3Name
-
-// // alert(144)
-
-// // var num = 10;
-// // alert(num) 
-
-// // var age = 10;
-// // alert(age + 19)
-
-// // var age = "10";
-// // alert(age + 19)
-
-// // var a = "20";
-// // var b = 5;
-// // alert(a + b);
-
-// // var a = 20;
-// // var b = 5;
-// // alert(a + b);
-
-// //------Variable Names Legal and Illegal: chapter 4------//
-
-
-// // var 2345678  
-
-// // var full$Name name  
-
-// // var fullName10
-
-// // var uname = "rafay"
-
-// // alert(Uname)
-
-// //--start Sir Ibrahim youtube video Ecmascript revision chapter 1-5--// 
-
-// // var var = "rafay" // reservet keyword
-
-// // var myFirstName = "Rafay";
-// // var myFirstName = //reinitailized
-// // myFirstName = "Rafay change" //reassige 
-
-// // let myFirstName = "Rafay"
-// // let myFirstName = "Rafay" // let keyword reinitailized nahi hota
-// // myFirstName = "Rafay change" // let keyword reassige hota hai
-
-
-// // const myFirstName = "Rafay"
-// // const myFirstName = "Rafay" // const keyword reinitailized nahi hota
-// // myFirstName = "Rafay change"// const keyword reassige nahi hota
-
-// // console.log(myFirstName)
-// // var myFirstName = "Rafay";
-
-// // console.log(myFirstName)
-// // let myFirstName = "Rafay"; //TDZ from: temporal dead zone
-
-// // console.log(myFirstName)
-// // const myFirstName = "Rafay";//TDZ from: temporal dead zone
-
-// // var Numbers = 10;
-
-// // var NumbersPlus = Numbers + 10;
-
-// // console.log("number",Numbers,NumbersPlus)
-
-// // coersion
-
-// // alert(2 + 2)
-
-// // var Mo = 10 / 0;
-// // console.log(Mo)
-
-
-// //--------JavaScript Type Conversion & Coercion--------//
-
-
-
-
-// //--------Math expressions Unfamiliar operators--------//
-
-// // var num = 1;
-// // var num1 = ++num;
-// // console.log(num1)
+// // // const noum;
+// // // num = "osama"
 // // // console.log(num)
 
-// // var num = 2;
-// // var totle = num + 1;
-// // console.log(totle)
+// // // var uname = "rafay"
 
-// // var num1 = 5;
-// // var totle = num1--;
-// // console.log(totle);
-// // console.log(num1)
+// // // var name = "rafay";
 
-// // var num1 = 5;
-// // var totle = num1 - 2;
-// // console.log(totle)
+// // // var uname = "rafay";
 
-// // var num = 5;
-// // var newNum = num--;
-// // console.log(newNum)
-// // console.log(num);
+// // // uname = "Byee";
 
-// // var x = 3;
-// // var y = x++ + 2;
-// // alert(y);
+// // // uname = "Hello";
 
-// // var num = 2;
-// // var num2 = ++num;
-// // console.log(num2);
-// // console.log(num);
+// // // uname = "osama"
+// // // console.log(uname);
 
-// // var num = 5;
-// // var totle = ++num;
-// // console.log(totle)
+// // // var name
 
-// // var num = 5;
-// // var totle = num--;
-// // console.log(totle)
-// // console.log(num)
+// // // var a = 9;
+// // // var b = 10;
+// // // alert(a == b);
 
-// // console.log(num--)
-// // console.log(num)
+// // // var a = "10"
+// // // var b = 10
 
-// // var num2 = 10;
-// // console.log( 1 + num2)
+// // // console.log(uname)
 
-// // console.log(++num);
+// // // var a = "10";
+// // // var b = 10;
+// // // alert(a === b);
 
-// // var a = 1;
-// // var b = 1;
+// // // var uname = "Hello"
 
-// // var totle = ++a + b++;
+// // // console.log(uname + " World")
 
-// // console.log(totle)
+// // // var full$Name
 
-// // var fname = "abdul";
+// // // var a = "5";
+// // // var b = a;
+// // // b = "10";
+// // // alert(a);
 
-// // var lName = prompt("enter your last name");
+// // // var x = 10;
+// // // var y = 10;
+// // // console.log(x + y)
 
-// // alert( "kya hal hai " + fname + " " +  lName)
+// // // var uname;
 
-// // console.log(fname + " " + lName)
-
-// // console.log(`hi==> ${fname} ${lName} <==kya hal hai`)
-
-// // alert("Thanks for your input")
-
-// // var name = "Thanks for your input";
-
-// // alert(name)
-
-// // console.log(name)
-
-// // var uname = "rafay";
-// // var uname2 = "Thanks";
-// // var uname3 = "!";
-// // var totle = `${uname2} ${uname} ${uname3}`
-
-// // console.log(totle)
-
-// // alert(`hi ${uname2} ${uname} ${uname3} bye`)
-
-// // console.log("2" + "2")
+// // // var a;
+// // // console.log(a == undefined)
 
 
-// // console.log("2 plus 2 q" + 2 + 2)
+// // // var uname;
 
-// // var age = prompt("enter your age","10");
+// // // console.log(uname)
 
-// // console.log(typeof age)
 
-// // var age = prompt("enter your age")    
+// // // console.log(typeof a)
 
-// // if(age == null){
-// //     alert("cancel kara app na")
-// // }else{
-// //     age = Number(age);
-// //     alert(age + 1)
+// // // let  let 
+
+// // //-------------Variables for Numbers: chapter 3------------//
+
+
+// // // var x = "3";
+// // // var y = 2;
+// // // alert(x * y);
+
+// // // var x = "rafay";
+// // // var y = 5;
+// // // alert(x - y);
+
+
+// // // var uname = 1;
+// // // console.log(uname == false)
+
+// // // var a = "5";
+// // // alert(++a);
+
+// // // var name = "rafay";
+
+// // // console.log(name)
+
+// // // var weight = 150;
+
+// // // weight + 25; 
+
+// // // console.log(weight)
+
+
+// // // var originalNumber = 10;
+// // // var newNumber = originalNumber + 20
+
+// // // console.log(newNumber)
+
+
+// // // var firstNumber = "20";
+// // // var secondNumber = 20;
+// // // var result = firstNumber + secondNumber;
+// // // console.log(result)
+
+// // // var age = 18;
+// // // age = age + 10;
+// // // console.log(age)
+
+// // // var originalNumber = 23;
+// // // var newNum = originalNumber + 10;
+
+// // // console.log(newNum)
+
+// // // console.log(typeof originalNumber)
+
+// // // var 3Name
+
+// // // alert(144)
+
+// // // var num = 10;
+// // // alert(num) 
+
+// // // var age = 10;
+// // // alert(age + 19)
+
+// // // var age = "10";
+// // // alert(age + 19)
+
+// // // var a = "20";
+// // // var b = 5;
+// // // alert(a + b);
+
+// // // var a = 20;
+// // // var b = 5;
+// // // alert(a + b);
+
+// // //------Variable Names Legal and Illegal: chapter 4------//
+
+
+// // // var 2345678  
+
+// // // var full$Name name  
+
+// // // var fullName10
+
+// // // var uname = "rafay"
+
+// // // alert(Uname)
+
+// // //--start Sir Ibrahim youtube video Ecmascript revision chapter 1-5--// 
+
+// // // var var = "rafay" // reservet keyword
+
+// // // var myFirstName = "Rafay";
+// // // var myFirstName = //reinitailized
+// // // myFirstName = "Rafay change" //reassige 
+
+// // // let myFirstName = "Rafay"
+// // // let myFirstName = "Rafay" // let keyword reinitailized nahi hota
+// // // myFirstName = "Rafay change" // let keyword reassige hota hai
+
+
+// // // const myFirstName = "Rafay"
+// // // const myFirstName = "Rafay" // const keyword reinitailized nahi hota
+// // // myFirstName = "Rafay change"// const keyword reassige nahi hota
+
+// // // console.log(myFirstName)
+// // // var myFirstName = "Rafay";
+
+// // // console.log(myFirstName)
+// // // let myFirstName = "Rafay"; //TDZ from: temporal dead zone
+
+// // // console.log(myFirstName)
+// // // const myFirstName = "Rafay";//TDZ from: temporal dead zone
+
+// // // var Numbers = 10;
+
+// // // var NumbersPlus = Numbers + 10;
+
+// // // console.log("number",Numbers,NumbersPlus)
+
+// // // coersion
+
+// // // alert(2 + 2)
+
+// // // var Mo = 10 / 0;
+// // // console.log(Mo)
+
+
+// // //--------JavaScript Type Conversion & Coercion--------//
+
+
+
+
+// // //--------Math expressions Unfamiliar operators--------//
+
+// // // var num = 1;
+// // // var num1 = ++num;
+// // // console.log(num1)
+// // // // console.log(num)
+
+// // // var num = 2;
+// // // var totle = num + 1;
+// // // console.log(totle)
+
+// // // var num1 = 5;
+// // // var totle = num1--;
+// // // console.log(totle);
+// // // console.log(num1)
+
+// // // var num1 = 5;
+// // // var totle = num1 - 2;
+// // // console.log(totle)
+
+// // // var num = 5;
+// // // var newNum = num--;
+// // // console.log(newNum)
+// // // console.log(num);
+
+// // // var x = 3;
+// // // var y = x++ + 2;
+// // // alert(y);
+
+// // // var num = 2;
+// // // var num2 = ++num;
+// // // console.log(num2);
+// // // console.log(num);
+
+// // // var num = 5;
+// // // var totle = ++num;
+// // // console.log(totle)
+
+// // // var num = 5;
+// // // var totle = num--;
+// // // console.log(totle)
+// // // console.log(num)
+
+// // // console.log(num--)
+// // // console.log(num)
+
+// // // var num2 = 10;
+// // // console.log( 1 + num2)
+
+// // // console.log(++num);
+
+// // // var a = 1;
+// // // var b = 1;
+
+// // // var totle = ++a + b++;
+
+// // // console.log(totle)
+
+// // // var fname = "abdul";
+
+// // // var lName = prompt("enter your last name");
+
+// // // alert( "kya hal hai " + fname + " " +  lName)
+
+// // // console.log(fname + " " + lName)
+
+// // // console.log(`hi==> ${fname} ${lName} <==kya hal hai`)
+
+// // // alert("Thanks for your input")
+
+// // // var name = "Thanks for your input";
+
+// // // alert(name)
+
+// // // console.log(name)
+
+// // // var uname = "rafay";
+// // // var uname2 = "Thanks";
+// // // var uname3 = "!";
+// // // var totle = `${uname2} ${uname} ${uname3}`
+
+// // // console.log(totle)
+
+// // // alert(`hi ${uname2} ${uname} ${uname3} bye`)
+
+// // // console.log("2" + "2")
+
+
+// // // console.log("2 plus 2 q" + 2 + 2)
+
+// // // var age = prompt("enter your age","10");
+
+// // // console.log(typeof age)
+
+// // // var age = prompt("enter your age")    
+
+// // // if(age == null){
+// // //     alert("cancel kara app na")
+// // // }else{
+// // //     age = Number(age);
+// // //     alert(age + 1)
+// // // }
+
+// // // var uname = prompt("enter your name");
+// // // var age = +prompt("enter your age");
+// // // var Marks = Number(prompt("enter your roll"));
+
+// // // if (uname === "rafay" && age === 30 && Marks >= 100) {
+// // //     console.log("correct==>", uname, age, Marks)
+// // // } else if (uname == "ali") {
+// // //     console.log("correct==>", uname)
+// // // }
+// // // else if (uname == "osama") {
+// // //     console.log("correct==>", uname)
+// // // }
+// // // else {
+// // //     console.log("incorrect")
+// // // }
+
+// // // var name = "rafay";
+// // // name = "osama"
+// // // console.log(name)
+
+// // // var age = prompt("enter your age")
+
+// // // if (age !== 30){
+// // //     console.log("sahi")
+// // // } else{
+// // //     console.log("nahi sahi")
+// // // }
+
+// // // var age = prompt("enter");
+
+// // // if ( age == 20 || age == 15 ){
+
+// // // console.log("correct")
+
+// // // } else{
+// // //     console.log("incorrect")
+// // // }
+
+// // // var name = prompt("enter your name")
+
+// // // if (name == "ali") {
+// // //     console.log("ya naam hai==>", name)
+// // // } else {
+// // //     console.log("ya naam nahi hai==>", name)
+// // // }
+
+// // // var marks = 65;
+
+// // // if (marks >= 80) {
+// // //   console.log("A Grade");
+// // // } else if (marks >= 60) {
+// // //   console.log("B Grade");
+// // // } else {
+// // //   console.log("Fail");
+// // // }
+
+
+// // // ----------------------------------------------------------- //
+
+// // // var marks = prompt("enter your name");
+
+// // // if (marks === "rafay") {
+// // //   console.log("sahi hai", marks)
+// // // } else {
+// // // console.log("ya name nahi hai",marks)
+// // // }
+
+// // var all_in_one = prompt("enter all in one")
+
+// // var uname = "ali";
+// // var age = 10;
+// // var marks = 100;
+// // var roll = 73;
+
+// // if (all_in_one == 30) {
+// //     console.log("all in one correct", all_in_one, uname, age, marks, roll)
+// //     if (uname == "ali") {
+// //         if (age == 10) {
+// //             if (marks == 100) {
+// //                 if (roll == 73) {
+// //                 } else {
+// //                     console.log("nahi chala na roll")
+// //                 }
+// //             } else {
+// //                 console.log("nahi chala marks")
+// //             }
+// //         } else {
+// //             console.log("nahi chala age")
+// //         }
+// //     } else {
+// //         console.log("nahi chala uname")
+// //     }
+// // } else{
+// //     console.log("mahi chala all in one")
 // // }
 
-// // var uname = prompt("enter your name");
-// // var age = +prompt("enter your age");
-// // var Marks = Number(prompt("enter your roll"));
+// // var age = prompt("enter your age");
 
-// // if (uname === "rafay" && age === 30 && Marks >= 100) {
-// //     console.log("correct==>", uname, age, Marks)
-// // } else if (uname == "ali") {
-// //     console.log("correct==>", uname)
+// // if (age == 30) {
+// //     console.log("chal gaya age==>", age)
+// // } else {
+// //     console.log("ya nahi hai age==>", age)
 // // }
-// // else if (uname == "osama") {
-// //     console.log("correct==>", uname)
+
+// // var fullName = prompt("enter your name")
+
+
+// // if (fullName == "ali") {
+// //     console.log(` chal gaya ${fullName} khan`)
+// // } else {
+// // console.log("nahi chala")
+// // }
+
+// // var weight = prompt("enter your weight");
+// // var time = prompt("enter your time");
+// // var age = prompt("enter your age");
+// // var gender = prompt("enter your gender");
+
+
+// // if (weight > 300 && time < 6 && age > 17 && gender === "male") {
+// //     alert("Come to our tryout!");
 // // }
 // // else {
-// //     console.log("incorrect")
+// //     alert("Come to our cookout!");
 // // }
 
-// // var name = "rafay";
-// // name = "osama"
-// // console.log(name)
+// // var full$Name = prompt("enter your name");
+// // var GPA = prompt("enter your GPA");
+// // var sport = prompt("enter your sport");
 
-// // var age = prompt("enter your age")
-
-// // if (age !== 30){
-// //     console.log("sahi")
-// // } else{
-// //     console.log("nahi sahi")
+// // if (full$Name === "ali" || GPA > 2.5 || sport === "football") {
+// //     alert("Welcome to Bubba State!");
+// // }
+// // else {
+// //     alert("Have you looked into appliance repair?");
 // // }
 
-// // var age = prompt("enter");
+// // --- array---
 
-// // if ( age == 20 || age == 15 ){
+// // var arr = ["ali","osama","khalid"];
 
-// // console.log("correct")
+// // console.log(arr[0])
 
-// // } else{
-// //     console.log("incorrect")
+
+
+// // var arr  = [];
+
+// // arr [200] = "ali"
+// // arr [150] = "rafay"
+
+
+// // console.log(arr[arr.length-1])
+// // console.log(arr[arr.length-51])
+
+// // var name = "rafay"
+
+// // var arr = ['rafay','osama','kinza','ali']
+
+// // console.log(arr[0] = "67")
+
+
+// // var arr = ['soama', 'kakakakakakaka', 'kinza', 'ali', 'rafay', 'osama', 'kinza', 'ali', 'rafay', 'osama', 'kinza', 'ali', 'rafay', 'osama', 'kinza', 'ali', 'rafay', 'osama', 'kinza', 'ali', 'rafay', 'osama', 'kinza', 'ali', 'rafay', 'osama', 'kinza', 'ali', 'rafay', 'osama', 'asas', 'fsjdfhsjkdfhsjdfhsjkd1']
+
+// // for (var i = 0; i < arr.length; i++) {
+// //     console.log(arr[i]);
+
 // // }
 
-// // var name = prompt("enter your name")
+// // var arr = ["rafay",50,true]
 
-// // if (name == "ali") {
-// //     console.log("ya naam hai==>", name)
-// // } else {
-// //     console.log("ya naam nahi hai==>", name)
-// // }
-
-// // var marks = 65;
-
-// // if (marks >= 80) {
-// //   console.log("A Grade");
-// // } else if (marks >= 60) {
-// //   console.log("B Grade");
-// // } else {
-// //   console.log("Fail");
-// // }
-
-
-// // ----------------------------------------------------------- //
-
-// // var marks = prompt("enter your name");
-
-// // if (marks === "rafay") {
-// //   console.log("sahi hai", marks)
-// // } else {
-// // console.log("ya name nahi hai",marks)
-// // }
-
-// var all_in_one = prompt("enter all in one")
-
-// var uname = "ali";
-// var age = 10;
-// var marks = 100;
-// var roll = 73;
-
-// if (all_in_one == 30) {
-//     console.log("all in one correct", all_in_one, uname, age, marks, roll)
-//     if (uname == "ali") {
-//         if (age == 10) {
-//             if (marks == 100) {
-//                 if (roll == 73) {
-//                 } else {
-//                     console.log("nahi chala na roll")
-//                 }
-//             } else {
-//                 console.log("nahi chala marks")
-//             }
-//         } else {
-//             console.log("nahi chala age")
-//         }
-//     } else {
-//         console.log("nahi chala uname")
-//     }
-// } else{
-//     console.log("mahi chala all in one")
-// }
-
-// var age = prompt("enter your age");
-
-// if (age == 30) {
-//     console.log("chal gaya age==>", age)
-// } else {
-//     console.log("ya nahi hai age==>", age)
-// }
-
-// var fullName = prompt("enter your name")
-
-
-// if (fullName == "ali") {
-//     console.log(` chal gaya ${fullName} khan`)
-// } else {
-// console.log("nahi chala")
-// }
-
-// var weight = prompt("enter your weight");
-// var time = prompt("enter your time");
-// var age = prompt("enter your age");
-// var gender = prompt("enter your gender");
-
-
-// if (weight > 300 && time < 6 && age > 17 && gender === "male") {
-//     alert("Come to our tryout!");
-// }
-// else {
-//     alert("Come to our cookout!");
-// }
-
-// var full$Name = prompt("enter your name");
-// var GPA = prompt("enter your GPA");
-// var sport = prompt("enter your sport");
-
-// if (full$Name === "ali" || GPA > 2.5 || sport === "football") {
-//     alert("Welcome to Bubba State!");
-// }
-// else {
-//     alert("Have you looked into appliance repair?");
-// }
-
-// --- array---
-
-// var arr = ["ali","osama","khalid"];
-
-// console.log(arr[0])
-
-
-
-// var arr  = [];
-
-// arr [200] = "ali"
-// arr [150] = "rafay"
-
-
-// console.log(arr[arr.length-1])
-// console.log(arr[arr.length-51])
-
-// var name = "rafay"
-
-// var arr = ['rafay','osama','kinza','ali']
-
-// console.log(arr[0] = "67")
-
-
-// var arr = ['soama', 'kakakakakakaka', 'kinza', 'ali', 'rafay', 'osama', 'kinza', 'ali', 'rafay', 'osama', 'kinza', 'ali', 'rafay', 'osama', 'kinza', 'ali', 'rafay', 'osama', 'kinza', 'ali', 'rafay', 'osama', 'kinza', 'ali', 'rafay', 'osama', 'kinza', 'ali', 'rafay', 'osama', 'asas', 'fsjdfhsjkdfhsjdfhsjkd1']
-
-// for (var i = 0; i < arr.length; i++) {
-//     console.log(arr[i]);
-
-// }
-
-// var arr = ["rafay",50,true]
-
-// for (let i = 0; i < arr .length; i++) {
-//    console.log(arr [i]);
+// // for (let i = 0; i < arr .length; i++) {
+// //    console.log(arr [i]);
     
-// }
+// // }
 
 
-// var arr = ['rafya','osama','ali',1001]
+// // var arr = ['rafya','osama','ali',1001]
+
+// // console.log(arr)
+
+// // var arr = ['rafay','osama','ali']
+
+// // alert('welcome to ' + arr[1])
+
+// // var arr = [1,'ali',true]
+
+// // console.log(arr[0] + "rafay")
+
+
+// // var arr = ['rafay',30,true]
+
+// // alert(arr[0])
+
+// // 0
+
+// // var arr = []
+
+// // arr = "rafay"
+
+// // console.log(arr)
+
+// // var array = [];
+
+// // array[0] = "rafay";
+// // array[1] = 10;
+// // array[2] = true;
+
+
+// // console.log(array)
+// // console.log(array.pop("rafay"))
+
+
+// var arr = ['ali',40,true];
+
+// console.log(arr)
+// console.log(arr[2])
+
+// arr.push("chall gaya")
 
 // console.log(arr)
 
-// var arr = ['rafay','osama','ali']
+// arr.pop()
 
-// alert('welcome to ' + arr[1])
+// console.log(arr)
 
-// var arr = [1,'ali',true]
+// arr.unshift("nice")
 
-// console.log(arr[0] + "rafay")
+// console.log(arr)
 
+// arr.shift()
 
-// var arr = ['rafay',30,true]
+// console.log(arr)
 
-// alert(arr[0])
+// var arr = ['rafay',40,20,'osama']
 
-// 0
+// arr.push("nice",30 , 19)
 
+// arr.pop()
+
+// arr.unshift("nice", 30 , 10)
+
+// arr.shift()
+
+// console.log(arr)
+
+// var arr = ['rafay',20,30,40,50,60,'osama'];
+
+// arr.splice(0,2)
+
+// console.log(arr)
+
+var arr = ['rafay',10,20,30,40,50]
+
+// arr.pop()
+// arr.pop()
+// arr.push('rafay', 'osama')
+// arr.unshift('rafay', 'osama')
+// arr.shift()
+// arr.shift()
+// arr.splice(0 , 3)
+
+console.log(arr)
