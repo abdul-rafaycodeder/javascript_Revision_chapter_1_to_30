@@ -546,3 +546,14 @@
 
 // alert('welcome to ' + arr[1])
 
+// var arr = [1,'ali',true]
+
+// console.log(arr[0] + "rafay")
+
+
+// var arr = ['rafay',30,true]
+
+// alert(arr[0])
+
+// 0
+
