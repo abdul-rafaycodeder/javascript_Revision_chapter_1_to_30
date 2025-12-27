@@ -749,7 +749,7 @@
 // }
 
 
-var arr = ['rafay',10,20,30,true];
+// var arr = ['rafay',10,20,30,true];
 
 // var modi = arr.pop()
 
@@ -767,4 +767,60 @@ var arr = ['rafay',10,20,30,true];
 
 // console.log(modi)
 
-console.log(arr)
+// console.log(arr)
+
+
+// var name = false;
+
+// console.log(name);
+
+// var cleanestCities = ["Cheyenne", "Santa Fe", "Tucson", "Great Falls", "Honolulu", "ali", 'rafay'];
+// var cityToCheck = prompt("enter your name")
+
+// var matchFound = false;
+
+// for (var i = 0; i < cleanestCities.length; i++) {
+//     if (cityToCheck === cleanestCities[i]) {
+//         matchFound = true;
+//         console.log(matchFound)
+//     }
+// }
+
+// if (!matchFound) {
+//     console.log(matchFound)
+// }
+
+
+// var name = "rafay";
+// var age = 17;
+// var marks = 40;
+
+// if (name == "rafay") {
+//     console.log("sahi")
+// }
+// else if (age == 17){
+//     console.log("sahi")
+// }
+
+// else if (marks == 40){
+//     console.log("sahi")
+// } else{
+//     console.log("sahi se likho")
+// }
+
+// var a = "rafay";
+// var  b = "osama"
+
+// if (a !== b){
+//     console.log("rigth")
+// } else{
+//     console.log('no')
+// }
+
+// var names = ['rafay', 10, 20, 30, 40, 50, false];
+
+// var modi = names.splice(  1    ,   3  ,  "ali" , 'bilia')
+
+// console.log(names)
+// console.log(modi)
+
