@@ -712,3 +712,27 @@
 // }
 
 
+// for (var i = 0; i <= 10; i++) {
+// console.log(i)    
+// }
+
+// var cleanestCities = ["Cheyenne", "Santa Fe", "Tucson", "Great Falls", "Honolulu"];
+
+// for (let i = 0; i < cleanestCities.length; i++) {
+// console.log(cleanestCities[i])    
+// }
+
+
+// var cleanestCities = ["Cheyenne", "Santa Fe", "Tucson", "Great Falls" , "Honolulu"];
+
+// for (let i = 0; i < cleanestCities.length; i++) {
+//     console.log(cleanestCities[i])
+// }
+
+
+var cleanestCities = ["Cheyenne", "Santa Fe", "Tucson", "Great Falls", "Honolulu"];
+
+
+for (let i = 0; i <= cleanestCities.length; i++) {
+    console.log(i)
+}
