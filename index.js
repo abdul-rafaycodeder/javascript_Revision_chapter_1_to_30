@@ -730,9 +730,41 @@
 // }
 
 
-var cleanestCities = ["Cheyenne", "Santa Fe", "Tucson", "Great Falls", "Honolulu"];
+// var cleanestCities = ["Cheyenne", "Santa Fe", "Tucson", "Great Falls", "Honolulu"];
 
 
-for (let i = 0; i <= cleanestCities.length; i++) {
-    console.log(i)
-}
+// for (let i = 0; i < cleanestCities.length; i++) {
+//     console.log(cleanestCities[i])
+// }
+
+// var cleanestCities = ["Cheyenne", "Santa Fe", "Tucson", "Great Falls", "Honolulu"];
+// var cityToCheck = prompt("enter your name")
+
+// for (let i = 0; i < cleanestCities.length; i++) {
+//     if (cleanestCities[i] === cityToCheck) {
+//         console.log("chal gaya==>", cityToCheck)
+//     } else if (cityToCheck === "rafay" || cityToCheck === "osama") {
+//         console.log("theek hai==>", cityToCheck)
+//     }
+// }
+
+
+var arr = ['rafay',10,20,30,true];
+
+// var modi = arr.pop()
+
+// console.log(modi)
+
+// var modi = arr.push('10')
+
+// console.log(modi)
+
+// var modi = arr.shift() 
+
+// console.log(modi)
+
+// var modi = arr.unshift('osama')
+
+// console.log(modi)
+
+console.log(arr)
