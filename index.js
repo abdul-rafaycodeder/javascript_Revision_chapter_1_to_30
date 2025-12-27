@@ -824,3 +824,27 @@
 // console.log(names)
 // console.log(modi)
 
+// var arr = ['rafay',10,20,40];
+
+// arr.splice(2 , 1 , "pig")
+
+// console.log(arr)
+
+// cl
+
+
+// for(var i = 0; i < 5; i++){
+//     console.log(i)
+//     for(var j = 0; j < 5; j++) {
+//         console.log(j)
+//     }
+// }
+ 
+// var firstName = ['rafay','osama','ali','bilal']
+// var lastName = ['khan','asad','pop','push']
+
+// for (let i = 0; i < array.length; i++) {
+//     const element = array[i];
+    
+// }
+
