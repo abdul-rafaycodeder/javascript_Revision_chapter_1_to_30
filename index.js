@@ -868,3 +868,50 @@
 
 // console.log(nam)
 
+// var cityToCheck = prompt("Enter your city");
+// cityToCheck.toLowerCase()
+// var cleanestCities = ["Sheyenne", "santa fe", 'rafay'];
+
+// for (var i = 0; i < cleanestCities.length; i++) {
+//   if (cityToCheck === cleanestCities[i]) {
+//     console.log("chal gaya==>", cityToCheck)
+//   } 
+// }
+
+
+// var names = prompt('enter your name');
+
+// var modi = names.toLowerCase();
+
+// var arr = ['rafay', 'saad', 'bilal'];
+
+// for (let i = 0; i < arr.length; i++) {
+//   if (modi === arr[i]) {
+//     console.log('mil gaya==>', modi)
+//     break;
+//   } else {
+//     console.log('nahi mila==>',modi)
+//   }
+// }
+
+// ==================================================
+
+
+var uname = prompt("enter your name ");
+
+var arr = ["Saad", "bilal", "asad"];
+
+
+// var unameInLower = uname.toLowerCase()
+ var unameInUppercase = uname.toUpperCase()
+
+
+for (var i = 0; i < arr.length; i++) {
+  if (unameInUppercase == arr[i]) {
+    console.log("milgaya==>", unameInUppercase)
+    break;
+  }
+  else {
+    console.log("sorry nhi mila==>",unameInUppercase)
+  }
+}
