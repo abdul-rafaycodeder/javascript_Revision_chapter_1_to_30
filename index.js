@@ -864,3 +864,7 @@
 // }
 
 
+// var nam = 'rafay';
+
+// console.log(nam)
+
