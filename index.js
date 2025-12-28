@@ -839,13 +839,28 @@
 //         console.log(j)
 //     }
 // }
- 
+
 // var firstName = ['rafay','osama','ali','bilal']
 // var lastName = ['khan','asad','pop','push']
 
 // for (let i = 0; i < array.length; i++) {
 //     const element = array[i];
-    
+
 // }
 
-var name  = 'rafay'
+// var firstNames = ["BlueRay ", "Upchuck ", "Lojack ", "Gizmo ", "Do-Rag "];
+
+// var lastNames = ["Zzz", "Burp", "Dogbone", "Droop"];
+
+// var firstNames = ["BlueRay ", "Upchuck ", "Lojack ", "Gizmo ", "Do-Rag "];
+// var lastNames = ["Zzz", "Burp", "Dogbone", "Droop"];
+// var fullNames = [];
+
+// for (var i = 0; i < firstNames.length; i++) {
+//   for (var j = 0; j < lastNames.length; j++) {
+//     fullNames.push(firstNames[i] + lastNames[j]);
+//     console.log(firstNames[i] + lastNames[i])
+//   }
+// }
+
+
