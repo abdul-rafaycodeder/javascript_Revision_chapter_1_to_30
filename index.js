@@ -954,4 +954,16 @@
 // console.log(num)
 
 
+// var number = Math.random()
+// console.log(number)
 
+// var newNum = number = Math.round(number);
+
+// console.log(newNum)
+
+
+
+// var number = Math.round(3.323232)
+// var number = Math.ceil(1.000001)
+var number = Math.floor()
+console.log(number)
