@@ -899,21 +899,22 @@
 
 var uname = prompt("enter your name ");
 
-var arr = ["Saad", "bilal", "asad"];
+var arr = ["rafay", "bilal", "asad"];
 
 
-// var unameInLower = uname.toLowerCase()
- var unameInUppercase = uname.toUpperCase()
 
 
-for (var i = 0; i < arr.length; i++) {
-  if (unameInUppercase == arr[i]) {
-    console.log("milgaya==>", unameInUppercase)
-    break;
-  }
-  else {
-    console.log("sorry nhi mila==>",unameInUppercase)
-  }
-}
+// // var unameInLower = uname.toLowerCase()
+//  var unameInUppercase = uname.toUpperCase()
 
-var na  = 'asss'
+
+// for (var i = 0; i < arr.length; i++) {
+//   if (unameInUppercase == arr[i]) {
+//     console.log("milgaya==>", unameInUppercase)
+//     break;
+//   }
+//   else {
+//     console.log("sorry nhi mila==>",unameInUppercase)
+//   }
+// }
+
