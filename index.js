@@ -897,24 +897,56 @@
 // ==================================================
 
 
-var uname = prompt("enter your name ");
+// var uname = prompt("enter your name"); // rafay 
 
-var arr = ["rafay", "bilal", "asad"];
+// var firstchar = uname.slice(0 , 1);
+
+// var firstchar = firstchar.toUpperCase();
+
+// var secondchar = uname.slice(1)
+
+// var secondchar = secondchar.toUpperCase()
+
+// console.log(firstchar + secondchar)
+
+// =============================================================
+
+var names = prompt('enter your name'); // rafay 
+
+var arr = ['rafay', 'ali', 'saad'];
+
+var firstchar = names.slice(0, 1);
+
+var firstchar = firstchar.toUpperCase();
+
+var secondchar = names.slice(1);
+
+var secondchar = secondchar.toLowerCase();
+
+var fullName = firstchar + secondchar;
+
+// ================================================================
+
+for (var i = 0; i < arr.length; i++) {
+  if (fullName === arr[i]) {
+    console.log('chal gaya')
+  }
+}
 
 
 
 
-// // var unameInLower = uname.toLowerCase()
-//  var unameInUppercase = uname.toUpperCase()
+
+
 
 
 // for (var i = 0; i < arr.length; i++) {
-//   if (unameInUppercase == arr[i]) {
-//     console.log("milgaya==>", unameInUppercase)
+//   if (fullName == arr[i]) {
+//     alert("milgaya==>", fullName)
 //     break;
 //   }
 //   else {
-//     console.log("sorry nhi mila==>",unameInUppercase)
+//     console.log("sorry nhi mila==>", fullName)
 //   }
 // }
 
