@@ -965,5 +965,27 @@
 
 // var number = Math.round(3.323232)
 // var number = Math.ceil(1.000001)
-var number = Math.floor()
-console.log(number)
+// var number = Math.floor(1.55555)
+// console.log(number)
+
+// console.log('rafay' + '200')
+// console.log('200' - 'rafay')
+// console.log("200" - "200")
+// console.log("100" - 80)
+// console.log(200 + '300')
+// console.log('200' + 300)
+
+// var age = prompt("enter your age");
+
+// var totle = parseFloat(age) + 1;
+
+// console.log(totle) 
+
+// var num1 = '10.2020'
+// var num = '20';
+// var newNumber = Number(num);
+// var newNumber2 = Number(num1)
+
+// console.log(typeof newNumber2,newNumber2)
+// console.log(typeof num,num)
+// console.log(typeof newNumber,newNumber)
