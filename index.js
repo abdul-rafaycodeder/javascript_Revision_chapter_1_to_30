@@ -1128,11 +1128,12 @@
 
 // console.log(name)
 
-var age = "rafay"
 
-function test() {
-    console.log(age)
-}
+// test()
+// function test() {
+//     var age = "firstName" // firstName
+//     console.log(age)
+// }
+// var age = "lastName" // lastName    
 
-test()
-var change = "name changed"
+
