@@ -1090,3 +1090,49 @@
 
 // console.log(totalAge)
 
+// khan
+
+// ===============================================
+
+// function firstFunction(firstName,lastName){
+// console.log(lastName,firstName)
+// }
+
+// firstFunction('abdul','rafay')
+
+
+// function sum(a , b = 10) {
+//     // console.log("a",a,'b',b)
+//     console.log(a + b)
+// }
+
+// sum(2,)
+
+
+// function sum(a, b) {
+//     return a + b
+// }
+
+// var result = sum(5, 10);
+
+// console.log(result)
+
+
+
+
+// function test(name){
+//  var name = 'rafay';
+// } 
+
+// test(name)
+
+// console.log(name)
+
+var age = "rafay"
+
+function test() {
+    console.log(age)
+}
+
+test()
+var change = "name changed"
