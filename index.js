@@ -1034,3 +1034,59 @@
 // console.log(rightNow)
 
 
+// var number = Math.random();
+
+// var newNumber = Math.round(number);
+
+// console.log(number);
+// console.log(newNumber)
+
+
+// var number = Math.round(Math.random());
+
+// var num2 = number + 1;
+
+// console.log(number,num2)
+
+
+// var number = Math.ceil(1.000000000000000001);
+
+// console.log(number)
+
+// var num1 = 1.343432432;
+
+// var num2 = Math.round(num1);
+
+// console.log(num2)
+
+// var num1 = 1.00341;
+
+// var num2 = Math.ceil(num1);
+
+// console.log(num2)
+
+
+// var num1 = 3.5444454548353;
+
+// var num2 = Math.floor(num1);
+
+// console.log(num2)
+
+// var num1 = Math.round(.5348234235);
+
+// console.log("num1==>",num1)
+
+// var num2 = Math.ceil(.000000)
+
+// console.log("num2==>",num2)
+
+// var num3 = Math.floor(.999999);
+
+// console.log("num3==>",num3)
+
+// var age = +prompt("enter your age")
+
+// var totalAge = age + 1;
+
+// console.log(totalAge)
+
