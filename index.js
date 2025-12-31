@@ -1137,3 +1137,6 @@
 // var age = "lastName" // lastName    
 
 
+var name = 'rafay';
+
+console.log(name)
